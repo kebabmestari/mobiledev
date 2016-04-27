@@ -1,0 +1,30 @@
+<ion-view title="List of all photos">
+  <ion-content class="has-header">
+    <ion-refresher
+      pulling-text="Pull to refresh..."
+      on-refresh="refreshPhotoList()">
+    </ion-refresher>
+
+    <ion-list>
+      <ion-item class="item item-thumbnail-left" ng-repeat="photo in photos" ui-sref="photo({ photoid: photo.id })">
+        <img ng-if="!photo.progress" ng-src="{{ photo.thumbnail_url }}">
+        <h2 ng-if="!photo.progress">{{ photo.title }}</h2>
+        <p ng-if="!photo.progress">{{ photo.date | date:'dd MMMM yyyy, HH:mm:ss' }}</p>
+
+
+        <h2 ng-if="photo.progress">{{ photo.title }}</h2>
+        <div ng-if="photo.progress">{{ photo.uploaded }} %</div>
+        <progress ng-if="photo.progress" max="100" value="{{ photo.uploaded }}"></progress>
+        </div>
+
+        <p ng-if="photo.error">Error: {{ photo.error }}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+
+  <div class="bar bar-footer bar-balanced footer-button">
+    <button class="button button-full button-balanced button-icon icon ion-camera" ng-click="takePhoto()">
+      Take Photo
+    </button>
+  </div>
+</ion-view>
