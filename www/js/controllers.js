@@ -1,6 +1,7 @@
 angular.module('mobileApp.controllers', [])
 
-.controller('MainCtrl', function($scope, $cordovaCamera, $cordovaFile, $rootScope, $state, $timeout) {
+.controller('MainCtrl', function($scope, $cordovaCamera, $cordovaFile,
+                            $rootScope, $state, $timeout, BackendService) {
 
   $scope.addMessage = function(asd){
     document.body.innerHTML += "<p>"+asd+"</p>";
@@ -74,6 +75,7 @@ angular.module('mobileApp.controllers', [])
             function onCopySuccess(entry) {
                 $rootScope.images.push(entry.nativeURL);
                 $rootScope.previewPhoto = imageData;
+                BackendService.uploadImage(imageData);
                 $timeout(function(){$state.go('tab.local'); }, 5000);
                 $state.go('preview');
             }
@@ -120,5 +122,5 @@ angular.module('mobileApp.controllers', [])
 })
 
 .controller('CloudStorageCtrl', function($scope, $stateParams, BackendService) {
-    
+
 });

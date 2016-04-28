@@ -7,10 +7,34 @@ angular.module('mobileApp.services', [])
       VERSION = 'v1'; //default application version;
   Backendless.initApp(APPLICATION_ID, SECRET_KEY, VERSION);
 
-  var user = new Backendless.User();
-  user.email = "lindqvist.samuel@gmail.com";
-  user.password = "ribalesibale";
-  Backendless.UserService.register(user);
+  var user = Backendless.UserService.login('lindqvist.samuel@gmail.com', 'ribalesibale', true);
+
+  this.uploadImage = function(file){
+    this.getFileObject(file, function (fileObject) {
+      console.log(file + " " + fileObject);
+      Backendless.Files.upload(fileObject, 'testi');
+    }); 
+  }
+
+  this.getFileBlob = function (url, cb) {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url);
+    xhr.responseType = "blob";
+    xhr.addEventListener('load', function() {
+        cb(xhr.response);
+    });
+    xhr.send();
+  };
+
+  this.getFileObject = function(filePathOrUrl, cb) {
+    this.getFileBlob(filePathOrUrl, function (blob) {
+      blob.lastModifiedDate = new Date();
+      blob.name = 'filu.jpg';
+      cb(blob);
+    });
+  };
+
+  this.uploadImage('https://upload.wikimedia.org/wikipedia/commons/a/a5/European_Rabbit,_Lake_District,_UK_-_August_2011.jpg');
 
 })
 

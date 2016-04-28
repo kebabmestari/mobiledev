@@ -8,6 +8,9 @@
 angular.module('mobileApp', ['ionic', 'mobileApp.controllers', 'mobileApp.services', 'ngCordova'])
 
 .run(function($ionicPlatform, $rootScope) {
+
+  
+  
   $ionicPlatform.ready(function() {
 
     $rootScope.images = ['https://upload.wikimedia.org/wikipedia/commons/a/a5/European_Rabbit,_Lake_District,_UK_-_August_2011.jpg'];
