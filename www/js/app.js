@@ -7,8 +7,13 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('mobileApp', ['ionic', 'mobileApp.controllers', 'mobileApp.services', 'ngCordova'])
 
-.run(function($ionicPlatform) {
+.run(function($ionicPlatform, $rootScope) {
   $ionicPlatform.ready(function() {
+
+    $rootScope.images = ['https://upload.wikimedia.org/wikipedia/commons/a/a5/European_Rabbit,_Lake_District,_UK_-_August_2011.jpg'];
+    $rootScope.previewPhoto = null;
+    $rootScope.localFileDir = 'mobiledev';
+
     //Piilota työkalurivi(fullscreen)
     if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
@@ -40,15 +45,18 @@ angular.module('mobileApp', ['ionic', 'mobileApp.controllers', 'mobileApp.servic
   // Each tab has its own nav history stack:
 
   .state('tab.local', {
-    url: '/local',
-    views: {
-      'tab-local': {
-        templateUrl: 'templates/local.html',
-        controller: 'LocalStorageCtrl'
+      url: '/local',
+      views: {
+        'tab-local': {
+          templateUrl: 'templates/local.html',
+          controller: 'LocalStorageCtrl'
+        }
       }
-    }
+    })
+  .state('preview', {
+    url: '/preview',
+    templateUrl: 'templates/showphoto.html',
   })
-
   .state('tab.cloud', {
       url: '/cloud',
       views: {
@@ -70,5 +78,4 @@ angular.module('mobileApp', ['ionic', 'mobileApp.controllers', 'mobileApp.servic
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/local');
-
 });

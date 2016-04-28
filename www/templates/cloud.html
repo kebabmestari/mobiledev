@@ -1,9 +1,9 @@
-<ion-view view-title="Account">
-  <ion-content>
-    <ion-list>
-    <ion-toggle  ng-model="settings.enableFriends">
-        Enable Friends
-    </ion-toggle>
-    </ion-list>
+<ion-view view-title="Cloud photos">
+  <ion-content class="thumbnailwrapper">
+    <img class="thumbnail" ng-repeat="image in images" ng-src="{{image}}" ng-click="showPhoto(0)">
+    <p id="asds">
+
+    </p>
   </ion-content>
+  <div id="showPhoto"><img ng-src="{{shownPhoto}}" alt="Shown photo" ng-click="closePhoto()"></div>
 </ion-view>

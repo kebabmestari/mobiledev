@@ -1,1 +1,49 @@
 /* Empty. Add your own CSS if you like */
+
+.thumbnailwrapper{
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+/*
+  Thumbnail for local and cloud photos
+*/
+.thumbnail{
+  flex: 1 1 auto;
+  width: 30vw;
+  height: 30vw;
+  margin-left: 10px;
+  border: 1px dashed cyan;
+  opacity: 0.6;
+  transition: opacity 0.5s;
+  border-radius: 5%;
+}
+
+.thumbnail:hover{
+  opacity: 1.0;
+}
+
+#preview{
+  width: 80%;
+  height: 80%;
+}
+
+#showPhoto{
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+}
+
+#showPhoto>img{
+  width: 100%;
+  height: 100%;
+}
