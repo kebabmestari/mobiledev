@@ -1,5 +1,19 @@
 angular.module('mobileApp.services', [])
 
+.service('BackendService', function(){
+
+  var APPLICATION_ID = '542DD843-1D45-E049-FF68-D216B7503E00',
+      SECRET_KEY = '5C8107B9-E881-1E2D-FF5D-C179A53A1F00',
+      VERSION = 'v1'; //default application version;
+  Backendless.initApp(APPLICATION_ID, SECRET_KEY, VERSION);
+
+  var user = new Backendless.User();
+  user.email = "lindqvist.samuel@gmail.com";
+  user.password = "ribalesibale";
+  Backendless.UserService.register(user);
+
+})
+
 // the .factory() method is called internally by Angular JS when the
 // PhotoLibraryService is used somewhere in the application for the first time.
 // When this service is used again, the same service object is returned.

@@ -119,6 +119,6 @@ angular.module('mobileApp.controllers', [])
   }
 })
 
-.controller('CloudStorageCtrl', function($scope, $stateParams) {
-
+.controller('CloudStorageCtrl', function($scope, $stateParams, BackendService) {
+    
 });
