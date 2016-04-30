@@ -9,13 +9,23 @@ angular.module('mobileApp', ['ionic', 'mobileApp.controllers', 'mobileApp.servic
 
 .run(function($ionicPlatform, $rootScope) {
 
-  
-  
   $ionicPlatform.ready(function() {
 
-    $rootScope.images = ['https://upload.wikimedia.org/wikipedia/commons/a/a5/European_Rabbit,_Lake_District,_UK_-_August_2011.jpg'];
+    $rootScope.images = ['localimages/kuva1.JPG', 'localimages/kuva2.JPG'];
+    $rootScope.cloudImages = [];
     $rootScope.previewPhoto = null;
     $rootScope.localFileDir = 'mobiledev';
+
+    $rootScope.shownPhoto = null;
+
+    $rootScope.showPhoto = function(array, id){
+      $rootScope.shownPhoto = array[id];
+      var asd = document.getElementById('showPhoto');
+      asd.style.display = 'block';
+    }
+    $rootScope.closePhoto = function(){
+      document.getElementById('showPhoto').style.display = 'none';
+    }
 
     //Piilota työkalurivi(fullscreen)
     if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {

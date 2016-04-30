@@ -1,9 +1,8 @@
 <ion-view view-title="Cloud photos">
   <ion-content class="thumbnailwrapper">
-    <img class="thumbnail" ng-repeat="image in images" ng-src="{{image}}" ng-click="showPhoto(0)">
+    <img class="thumbnail" ng-repeat="image in cloudImages" ng-src="{{image}}" ng-click="showPhoto({{$index}})">
     <p id="asds">
 
     </p>
   </ion-content>
-  <div id="showPhoto"><img ng-src="{{shownPhoto}}" alt="Shown photo" ng-click="closePhoto()"></div>
 </ion-view>

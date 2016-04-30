@@ -1,0 +1,150 @@
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x10afdf0 of 72 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x10a2310 of 784 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:ERROR:process_snapshot_win.cc(302)] ReadMemory RTL_USER_PROCESS_PARAMETERS
+[0429/104437:ERROR:process_reader_win.cc(98)] process 7780 not found
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0xc30000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Program Files\Google\Chrome\Application\chrome.exe
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x77020000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\ntdll.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x74ba0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\KERNELBASE.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x75330000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\KERNEL32.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x74da0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\msvcrt.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x74c80000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\RPCRT4.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x76ba0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\sechost.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x75190000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\ADVAPI32.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6f9c0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Program Files\Google\Chrome\Application\49.0.2623.112\chrome_elf.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x76ce0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\combase.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6bf20000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\WINHTTP.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6c260000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\VERSION.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x74b60000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\cfgmgr32.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x73a40000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\DEVOBJ.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6cc80000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\WINMMBASE.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x75020000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\GDI32.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x76eb0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\USER32.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x75210000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\MSCTF.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x76cb0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\IMM32.DLL
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6ccc0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\WINMM.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x74890000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\profapi.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x74050000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\USERENV.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x70690000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\WTSAPI32.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x74740000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\bcryptPrimitives.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x747a0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\CRYPTBASE.DLL
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x74d50000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\SHLWAPI.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x758e0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\SHELL32.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x75430000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\shcore.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x76c10000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\PSAPI.DLL
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6ba70000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\WINSPOOL.DRV
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x72cc0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.18006_none_a9ec6aab013aafee\COMCTL32.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x74e60000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\COMDLG32.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x74ef0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\ole32.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x75840000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\OLEAUT32.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x77010000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\NSI.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6feb0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\WINNSI.DLL
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6fec0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\IPHLPAPI.DLL
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x75140000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\WS2_32.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6ee70000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\USP10.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x74900000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\MSASN1.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x749e0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\CRYPT32.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x74910000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\WINTRUST.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6d110000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\Secur32.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x74710000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\SSPICLI.DLL
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0xfe70000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Program Files\Google\Chrome\Application\49.0.2623.112\chrome_child.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6e5a0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Program Files\AVAST Software\Avast\aswJsFlt.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6c9f0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc110.crt_2036b14a11e83e4a_11.0.60610.1_none_1d37a43bbfe1dc9c\MSVCR110.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6c990000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnIS.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6cae0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\WinSxS\x86_avast.vc110.crt_2036b14a11e83e4a_11.0.60610.1_none_1d37a43bbfe1dc9c\MSVCP110.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6c960000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnOS.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6cce0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswCmnBS.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x73d90000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\netutils.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x74590000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\srvcli.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x70790000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\wkscli.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x707c0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\NETAPI32.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6cca0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\log.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x740a0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\DNSAPI.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6c850000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\commchannel.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6c270000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\JsonRpcServer.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6c830000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\avastIP.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6c2e0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswEngLdr.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x69a70000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\AavmRpch.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6c8f0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\WSOCK32.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x75690000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\system32\SETUPAPI.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6f4f0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\iertutil.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6f730000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\WININET.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6cb70000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\ashBase.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6a810000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\aswAux.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6a990000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\ashTask.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x6aab0000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\PROGRA~1\AVASTS~1\Avast\Aavm4h.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0x71330000 of 64 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:pe_image_reader.cc(280)] could not read dos header from C:\Windows\SYSTEM32\dwrite.dll
+[0429/104437:ERROR:process_reader_win.cc(232)] ReadMemory at 0xcdc154 of 12 bytes failed: Vain osa ReadProcessMemory- tai WriteProcessMemory-pyynnöstä suoritettiin. (0x12B)
+[0429/104437:WARNING:process_snapshot_win.cc(89)] ReadMemory ExceptionInformation failed
+[0429/104437:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed
+[0429/104437:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess, ntstatus=-1073741558
