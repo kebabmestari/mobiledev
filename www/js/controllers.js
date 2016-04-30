@@ -4,7 +4,7 @@ angular.module('mobileApp.controllers', [])
                             $rootScope, $state, $timeout, CameraService) {
 
   $scope.addMessage = function(asd){
-    document.body.innerHTML += "<p>"+asd+"</p>";
+    document.body.innerHTML = "<p>"+asd+"</p>";
   }
 
   $scope.takePhoto = function(){

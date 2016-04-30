@@ -2,10 +2,10 @@ angular.module('mobileApp.services', [])
 
 .service('CloudService', function(){
 
-
 })
 
 .service('CameraService', function($cordovaCamera, $rootScope, $timeout, $state){
+
   // (function getLocalPhotos(){
   //   $cordovaFile.checkDir(cordova.file.dataDirectory, $rootScope.localFileDir)
   //   .then(function(success){
@@ -39,11 +39,11 @@ angular.module('mobileApp.services', [])
       };
 
       $cordovaCamera.getPicture(options).then(function(imageData) {
-        $rootScope.images.push(imageData);
-        $rootScope.previewPhoto = imageData;
-        $timeout(function(){$state.go('tab.local'); }, 5000);
-        $state.go('preview');
-        return result;
+        // $rootScope.images.push(imageData);
+        // $rootScope.previewPhoto = imageData;
+        // $timeout(function(){$state.go('tab.local'); }, 5000);
+        // $state.go('preview');
+        // return result;
           onImageSuccess(imageData);
 
           function onImageSuccess(fileURI) {
@@ -57,6 +57,7 @@ angular.module('mobileApp.services', [])
 
           function copyFile(fileEntry) {
               var name = fileEntry.fullPath.substr(fileEntry.fullPath.lastIndexOf('/') + 1);
+              document.body.innerHTML = name;
               var newName = makeid() + name;
 
               window.resolveLocalFileSystemURL(cordova.file.dataDirectory, function(fileSystem2) {
@@ -72,6 +73,7 @@ angular.module('mobileApp.services', [])
           }
 
           function onCopySuccess(entry) {
+              document.body.innerHTML += 'success';
               $rootScope.images.push(entry.nativeURL);
               $rootScope.previewPhoto = imageData;
               BackendService.uploadImage(imageData);
