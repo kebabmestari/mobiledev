@@ -1,5 +1,3 @@
-/* Empty. Add your own CSS if you like */
-
 html,
 body
 {
@@ -54,4 +52,20 @@ body
 #showPhoto>img{
   width: 100%;
   height: 100%;
+}
+
+.uploadButton{
+  display: none;
+  z-index: 200;
+  position:absolute;
+}
+
+#uploadToLocal{
+  top: 10px;
+  left: 20px;  
+}
+
+#uploadToCloud{
+  top: 10px;
+  left: 150px;
 }

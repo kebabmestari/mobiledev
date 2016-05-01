@@ -1,0 +1,6 @@
+<ion-view view-title="All photos">
+  <ion-content class="thumbnailwrapper">
+  	<img class="thumbnail" ng-repeat="image1 in images" ng-src="{{image1}}" ng-click="showPhoto({{$index}}, 'local')">
+    <img class="thumbnail" ng-repeat="image2 in cloudImages" ng-src="{{image2}}" ng-click="showPhoto({{$index}}, 'cloud')">
+  </ion-content>
+</ion-view>
